@@ -1,6 +1,10 @@
 //font-family: "Montserrat", sans-serif;
 font-family: "Playfair Display", serif;
 
+.hero {
+  background: #c0bfc5;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
 }
