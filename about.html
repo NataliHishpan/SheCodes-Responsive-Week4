@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Acquaintance with Natali</title>
+    <meta name="About Natali" content="Acquaintance with Natali" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,25 +33,25 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="index.html">
+        <a href="index.html" title="Homepage">
           <img
             src="images/SheCodes Logo.webp"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Natali logo"
           />
         </a>
         <ul>
+          <li>
+            <a href="index.html" title="Homepage"> Home</a>
+          </li>
           <li class="active">
-            <a href="index.html"> Home</a>
+            <a href="about.html" title="About Natali Hishpan"> About</a>
           </li>
           <li>
-            <a href="about.html"> About</a>
+            <a href="work.html" title="Natali's work"> Work</a>
           </li>
           <li>
-            <a href="work.html"> Work</a>
-          </li>
-          <li>
-            <a href="contact.html"> Contact</a>
+            <a href="contact.html" title="Contact Natali"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -67,7 +68,12 @@
               application that allows users to see and interact with them
               directly
             </p>
-            <a href="#" class="btn btn-primary">See my projects</a>
+            <a
+              href="work.html"
+              class="btn btn-primary"
+              title="Natali's portfolio"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -75,5 +81,57 @@
         </div>
       </div>
     </div>
+    <footer class="footer-supporting-pages">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="contact.html"
+            class="btn btn-primary mt-3"
+            title="Contact page"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:ngishpan@gmail.com"
+          class="email-link"
+          title="Email Natali"
+          >ngishpan@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.linkedin.com/in/natalia-hishpan-91333622a/"
+          target="_blank"
+          title="LinkedIn Profile"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/hishpan_natalia/"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/checkpoint/?next=%2Fmarketplace%2F"
+          target="_blank"
+          title="Facebook Profile"
+          ><i class="fa-brands fa-facebook-square"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5 by-line">
+        This project was coded by Natali Hishpan, and it is
+        <a
+          href="https://github.com/NataliHishpan/SheCodes-Responsive-Week4.git"
+          target="_blank"
+          >open-source</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
